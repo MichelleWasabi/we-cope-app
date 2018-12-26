@@ -1,0 +1,16 @@
+// styles for the very top of the page
+.pg-header {
+  background: $dark-gray;
+  margin-bottom: $m-size;
+  padding: $l-size 0;
+  color: $white;
+  font-size: $xl-size;
+  text-align: center;
+
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .pg-header {
+      margin-bottom: $xl-size;
+  }
+}
